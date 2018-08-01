@@ -1,6 +1,6 @@
 if [ $# -eq 0 ]
 then
-  printf "%s\n" "Usage:" "$0 <cluster_name> <rg_name>"
+  printf "%s\n%s\n%s" "create a new aks cluster with the given particulars" "Usage:" "$0 <cluster_name> <rg_name>"
   exit
 fi
 
